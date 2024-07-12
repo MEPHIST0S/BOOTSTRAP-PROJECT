@@ -1,0 +1,75 @@
+.navbar-brand img{
+    height: 24px;
+    width: 154px;
+    margin-left: 200px;
+}
+
+/* MODIFICATIONS FOR ALL NAVBAR */
+nav{
+    height: 84px;
+    background-color: #F5F7FA;
+}
+
+.nav-link{
+    font-family: "Inter", sans-serif; /* HERE WE CHANGED FONT IN CLASS FOR OUR MENU TABS */
+}
+
+.nav-link.active{
+    font-weight: 500;/* HERE WE IN CSS CHANGED THE FW OF CLASS IT WILL CHANGED FOR ALL OBJECTS OF THIS CLASS */
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.reg{
+    margin-right: 200px;
+}
+
+.register-btn{
+    width: 91px;
+    height: 40px;
+    background-color: #4CAF4F !important;
+    /* SO HERE WE MADE CUSTOM CHANGE BUT IN HTML BY BOOTSTRAP WE HAVE ALREADY SOME DEFAULT BCGCLR 
+    AND IT GO OVER ANOTHER, FOR MAKING OUR CUSTOM CHANGE OVER DEFAULT ONE WE USE "!important"  */
+}
+
+.login-btn{
+    width: 77px;
+    height: 40px;
+    color: #4CAF4F !important;
+}
+
+.carousel-section{
+    background-color: #F5F7FA;
+}
+
+.carousel-item-text h1{
+    color: #4D4D4D;
+    font-size: 64px;
+    line-height: 76px;
+}
+
+.carousel-item-text span{
+    color: #4CAF4F;
+}
+
+.btn-carousel{
+    background-color: #4CAF4F !important;
+}
+
+.carousel-item-img img{
+    width: 75%;
+    margin: auto;
+    height: 75%;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50% !important;
+    background-color: #4caf4f5e !important;
+}
+.carousel-indicators .active{
+    background-color: #4CAF4F !important;
+}
